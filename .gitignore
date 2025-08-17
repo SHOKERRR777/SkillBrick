@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Virtual environment
+venv/
+.env/
+.env*
+*.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Database files (если используете SQLite)
+*.db
+*.sqlite
+*.db-journal
+
+# Логи и кэш
+*.log
+.cache/
