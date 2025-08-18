@@ -33,7 +33,7 @@
 
     Backend: Python (Aiogram, FastAPI)
 
-    Базы данных: PostgreSQL/SQLite
+    Базы данных: SQLalchemy+aiosqlite
 
     Платежи: ЮKassa/Stripe (учебный пример)
 
