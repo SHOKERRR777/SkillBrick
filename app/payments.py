@@ -11,7 +11,7 @@ import Database.request as rq
 
 router_payments = Router()
 
-PRICE = [LabeledPrice(label="Оплата подписки для закрытого тгк канала", amount=100)] # amount в копейках, т.е сейчас 1 рубль
+PRICE = [LabeledPrice(label="Оплата подписки для закрытого тгк канала", amount=50000)] # amount в копейках, т.е сейчас 1 рубль
 
 """ Обработчик команды 'Оплатить подписку' """
 @router_payments.message(F.text == "Оплатить подписку")
